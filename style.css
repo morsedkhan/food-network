@@ -1,0 +1,288 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.hederText {
+    width: 600px;
+    height: 234px;
+    left: 100px;
+    top: 260px;
+    line-height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hederImg {
+    width: 658.26px;
+    height: 747.23px;
+    left: 732px;
+    top: 82px;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    /* identical to box height, or 135% */
+    font-feature-settings: 'liga' off;
+    color: #707070;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    /* identical to box height, or 135% */
+    font-feature-settings: 'liga' off;
+    color: #707070;
+}
+
+.headingFont__color {
+    color: #FB8D48;
+}
+
+.about__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerSubtitle {
+    width: 499px;
+    height: 64px;
+    left: 100px;
+    top: 534px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    color: #828282;
+}
+
+.order__button {
+    width: 158px;
+    height: 31px;
+    left: 783px;
+    top: 447px;
+    background: linear-gradient( 88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    color: #fff;
+    font-size: 17px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 2px 30px 0px rgb(252 143 73 / 50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 23px;
+}
+
+.about__section {
+    width: 1340px;
+    height: 600px;
+    top: 936px;
+    left: 25px;
+    right: 25px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about__img {
+    /* position: absolute; */
+    width: 338px;
+    height: 536px;
+    top: 64px;
+    margin: 0 auto;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 48px;
+    width: 440px;
+    height: 246px;
+    right: 165px;
+    /* top: calc(50% - 246px/2 - 50px); */
+}
+
+.about__subtitle {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    font-feature-settings: 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+.recipes__section {
+    text-align: center;
+}
+
+.recipes__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    /* align: center; */
+    width: 767px;
+    height: auto;
+    margin: 0 auto;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #252525;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.recipes__subtitle {
+    margin: bottom 20px;
+}
+
+.recipes__img {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    width: 1239px;
+    height: 528px;
+    /* left: 101px; */
+    top: 1771px;
+}
+
+.recipes__signleImg {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 350px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+
+.recipes__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    /* flex-grow: 0; */
+    margin: 40px 18px;
+}
+
+.recipes__subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    text-align: left;
+    line-height: 25px;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+}
+
+.recipes__mainTitle {
+    margin-left: -133px;
+    margin-bottom: 3px;
+    color: rgb(0, 0, 0);
+}
+
+.count__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 64px 165px;
+    margin-top: 50px;
+    margin: 40px 18px;
+    left: 101px;
+    top: 2428px;
+    /* Default / White */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.count__title {
+    color: #18191F;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 12px;
+}
+
+.footer__section {
+    text-align: center;
+    background: #0B0D17;
+    width: 100%;
+    height: auto;
+    /* margin: 40px 18px; */
+}
+
+.footer__content {
+    padding: 30px
+}
+
+.footer__text {
+    color: #fff;
+}
+
+.downloadMobileApp__section {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px 50px; */
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.donwnload__img {
+    width: 20%;
+    margin-right: 180px;
+    height: auto;
+}
